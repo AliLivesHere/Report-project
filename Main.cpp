@@ -5,7 +5,10 @@
 
 using namespace std;
 
-
+struct Course {
+        string courseName;
+        float grade;
+    };
 
     struct Student {
         string name;
@@ -14,10 +17,6 @@ using namespace std;
     };
 
 
-    struct Course {
-        string courseName;
-        float grade;
-    };
 
     vector<Student> students;
 
@@ -123,5 +122,5 @@ int main(){
                 cout << "Invalid choice! Please try again.\n";
      }
   }
-return;
+return 0;
 }
